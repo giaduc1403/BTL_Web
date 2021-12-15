@@ -420,9 +420,18 @@ section.social-media{
     text-align: center;
     padding-top: 30px;
 }
+.cart > h2{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    padding: 15px;
+}
 .cart-nav{
     display: flex;
     text-align: left;
+}
+.cart-nav > li{
+    font-size: 20px;
 }
 .cart-nav li:nth-child(1){
     width: 30%;
@@ -453,7 +462,13 @@ section.social-media{
 .cart-item :nth-child(4){
     width: 15%;
 }
-
+.fa-shopping-cart{
+    font-size: 18px;
+    color: coral !important;
+}
+#thanh-toan{
+    font-size: 20px;
+}
 /* ============Foter====================== */
 footer{
     background: #000;

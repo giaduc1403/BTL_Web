@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style_menu.css">
+    <link href = "https://www.freelogoservices.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6khvKApBBLmBrIwXs1M3EMoAJtliIkhfdq8vw4" rel = "shorcut icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Menu</title>
+    <script src="Javascript/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="wrapper">
+            <div id="header">
+                <div id="toggle" class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <nav>
+                    <div class="ig">
+                        <img src="https://www.freelogoservices.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6khvKApBBLmBrIwXs1M3EMoAJtliIkhfdq8vw4 " alt="logo cửa hàng">
+                    </div>
+                    <ul id="main-menu">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="menu.html">Thực Đơn</a></li>
+                        <li><a href="news.html">Tin Tức</a></li>
+                        <li><a href="index.html">Liên Hệ</a></li>
+                        <li><a href="login.html">Đăng nhập</a></li>
+                    
+                    </ul>
+                    <div class="topnav">
+                        <div class="search-container">
+                          <form action="/action_page.php">
+                            <input type="text" id="kw" placeholder="Tìm kiếm" name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                          </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="drink-display">
+        <div class="decor-menu-body">
+            <div class="drinks-menu">
+                <h1>Thực Đơn</h1>
+                <div>
+                    <ul class="drinks-options">
+                        <li><a class="choosen" href="#coffee">Coffee</a></li>
+                        <li><a href="#tea">Tea</a></li>
+                        <li><a href="#cake">Cakes</a></li>
+                        <li><a href="#other">Others</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="course">
+                <div class="items drinks">
+                    <div class="item rotate drink" id="coffee">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Cà Phê Đen</h4>
+                            </div>
+                            <div id="imgId" class="card-body">
+                                <img src="image/ca-phe-den.jpg" alt="bac xỉu">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+   
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">22.000VNĐ</h3>
+                                    <a href="#" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="coffee">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Bạc Xỉu</h4>
+                            </div>
+                            <div id="imgId" class="card-body">
+                                <img src="image/bac-xiu.jpg" alt="bạc xỉu">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 id="giaId" class="money">22.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="coffee">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Cà Phê Mocha</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/ca-phe-mocha.jpg" alt="cafe mocha">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                       
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">22.000VNĐ</h3>
+                                    <a href="#" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="coffee">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Capuchino</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/Capuchino.jpg" alt="Capuchino">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">22.000VNĐ</h3>
+                                    <a href="#" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="coffee">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Cà Phê Sữa</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/cafe-sua.jpg" alt="ca phe sua">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                            
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">22.000VNĐ</h3>
+                                    <a href="#" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="coffee">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Macchiato</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/Macchiato.jpg" alt="macchiato">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                        
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">22.000VNĐ</h3>
+                                    <a href="#" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="item rotate drink" id="tea">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Hồng trà đào</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image\hong-tra-dao.jpg" alt="hong tra dao">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                            
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">15.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right oder-center">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="tea">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Trà bưởi mật ong</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/tra-buoi-mat-ong.jpg" alt="tra buoi">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                            
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">20.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right oder-center">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="tea">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Sữa tươi đường đen</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/tra-sua-duong-den.jpg" alt="duong den">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                             
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">20.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right oder-center">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="tea">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Trà sữa chocolate</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/tra-sua-socola.jpg" alt="tra sua chocolate">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                            
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">25.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right oder-center">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="tea">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Trà sữa thái xanh</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/tra-sua-thai-xanh.jpg" alt="thai xanh">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">25.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right oder-center">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="tea">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Trà sữa trân châu</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/tra-sua.jpg" alt="tra sua">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">20.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right oder-center">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="cake">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">black forest</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/banh-black-forest.jpg" alt="black forest">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">30.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="cake">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Cheese cake</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/banh-chesse.jpg" alt="cheese">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">30.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="cake">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Doughnut</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/banh-donut.jpg" alt="doughnut">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">25.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="cake">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Bánh flan</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/banh-flan.jpg" alt="flan">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">22.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="cake">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Tiramisu</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/banh-tiramisu.jpg" alt="tiramisu">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">30.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="cake">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Sachertorte</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/banh-Sachertorte.jpg" alt="sachertorte">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">30.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="other">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Blue Cocktail</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/cocktail-blue.jpg" alt="cocktail blue">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">35.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="other">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Nước ngọt</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/cac-loai-nuoc-ngot.jpg" alt="nuoc ngot">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">20.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="other">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Sinh Tố Bơ</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/sinh-to-bo.jpg" alt="sinh to bo">
+                            </div>
+                            <div class="label">Hot</div>
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">25.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="other">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Sinh tố dưa gang</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/sinh-to-dua-gang.jpg" alt="sinh to dua gang">
+                            </div>
+                           
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">25.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="other">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Sinh tố dâu</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/sinh-tố-dâu.jpg" alt="sinh to dau">
+                            </div>
+                            
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">25.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rotate drink" id="other">
+                        <div class="coffee-card">
+                            <div class="card-header">
+                                <h4 class="title-text">Soda</h4>
+                            </div>
+                            <div class="card-body">
+                                <img src="image/soda.jpg" alt="soda">
+                            </div>
+                            
+                            <div class="card-footer">
+                                
+                            </div>
+                            <div class="back">
+                                <div class="back-content">
+                                    <h1 class="font">Only For</h1>
+                                    <h3 class="money">20.000VNĐ</h3>
+                                    <a href="oder.html" class="btn hvr-right">Order</a>
+                                    <input id="btnThem" type="button" value="Thêm vào giỏ"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="social-media">
+        <div class="icons">
+            <div class="icon">
+                <a href="#"><img src="image/facebook.png" alt="icon"></a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="image/googleplus.png" alt="icon"></a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="image/linkin.png" alt="icon"></a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="image/twitter.png" alt="icon"></a>
+            </div>
+        </div>
+    </section>
+    <section class="cart">
+        <h2>Cart</h2>
+        <div class="cart-body">
+            <div class="cart-body-head">
+                <ul class="cart-nav">
+                    <li>Sản phẩm</li>
+                    <li>Giá</li>
+                    <li>Số lượng</li>
+                    <li>Chọn</li>
+                </ul>
+            </div>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <div class="cart-image">
+                        <img src="image/ca-phe-den.jpg">
+                        <div>cà phê đen</div>
+                    </div>
+                    <div class="cart-price">
+                        22.000 vnđ
+                    </div>
+                    <div class="cart-amount">
+                        1
+                    </div>
+                    <div class="cart-option">
+                        <input type="button" value="Xóa" id="deleteProduct">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="my-footer">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <span><i class="fab fa-facebook fa-2x"></i></span>
+                <span><i class="fab fa-twitter fa-2x"></i></span>
+                <span><i class="fab fa-instagram fa-2x"></i></span>
+                <span><i class="fab fa-pinterest fa-2x"></i></span>
+            </div>
+            <p>&copy; Copy right Pet Coffee</p>
+        </div>
+        <div>
+            <a id="gototop" href="#"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </footer>
+</body>
+    <script src="Javascript/scriptt.js"></script>
+</html>
